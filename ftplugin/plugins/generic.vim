@@ -1,27 +1,15 @@
-" coc.nvim
-" tab completion
-" inoremap <silent><expr> <TAB>
-"       \ pumvisible() ? "\<C-n>" :
-"       \ <SID>check_back_space() ? "\<TAB>" :
-"       \ coc#refresh()
-" inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
-" imap <C-z> <Plug>(coc-snippets-expand)
-" Use <C-x> for select text for visual placeholder of snippet.
-" vmap <C-x> <Plug>(coc-snippets-select)
-" Use <C-x> for jump to next placeholder, it's default of coc.nvim
-" let g:coc_snippet_next = '<c-x>'
-" Use <C-c> for jump to previous placeholder, it's default of coc.nvim
-" let g:coc_snippet_prev = '<c-c>'
-" Use <C-x> for both expand and jump (make expand higher priority.)
-" imap <C-x> <Plug>(coc-snippets-expand-jump)
-" nmap <C-t> <Plug>(coc-terminal-toggle)
-" let g:coc_filetype_map = {
-"   \ 'htmldjango': 'html',
-"   \ }
-
 " ycm
+
+" nerdtree
 let g:NERDTreeShowLineNumbers=1
 autocmd BufEnter NERD_* setlocal nu
+
+" ultisnips
+
+" vim-snippets
+
+" prettier
+let g:prettier#config#config_precedence = 'file-override'
 
 " vim-auto-save
 let g:auto_save = 1 " enable AutoSave on Vim startup

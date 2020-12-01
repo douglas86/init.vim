@@ -5,9 +5,7 @@ map M :NERDTreeToggle <CR>
 map R :tabclose <CR>
 
 autocmd BufWinEnter *.py map <c-b> :Black <CR>
-autocmd VimEnter *.py CocCommand explorer
-autocmd BufWinEnter *.html,*.js,*.jsx map <c-b> :CocCommand prettier.formatFile <CR>
-autocmd BufWinEnter *.* map S :CocCommand snippets.editSnippets <CR>
+autocmd BufWinEnter *.html,*.js,*.jsx map <c-b> :Prettier <CR>
 
 " mappings for normal mode
 " moving to different window panes
@@ -27,11 +25,9 @@ autocmd BufWinEnter *.js map T :!node % <CR>
 map <C-n> :tabnew <bar> :term npm start <CR> <bar> :tabp <CR>
 
 " handling snippets
-imap <C-z> <Plug>(coc-snippets-expand)
-imap <C-x> <Plug>(coc-snippets-select)
-let g:coc_snippet_next = '<c-x>'
-let g:coc_snippet_prev = '<c-c>'
-imap <C-x> <Plug>(coc-snippets-expand-jump)
+let g:UltiSnipsExpandTrigger="<c-z>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-n>"
 
 " nerdtree commenter
 let g:NERDCommenterToggle = '<leader>c<space>'

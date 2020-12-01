@@ -1,7 +1,11 @@
 " generic plugins
-" Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'valloric/youcompleteme'
 Plug 'scrooloose/nerdtree'
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'npm install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug '907th/vim-auto-save' " auto saves file
 Plug 'jiangmiao/auto-pairs' "closing of pairs
 Plug 'preservim/nerdcommenter' "commenting out lines of code
@@ -18,15 +22,16 @@ Plug 'mattn/calendar-vim' "this calender is used in vimwiki for displaying calen
 Plug 'anyakichi/vim-surround'
 Plug 'tpope/vim-fugitive' "Used for github
 Plug 'junegunn/fzf' "fuzzy finder to use to find list, files, command history etc. From within vim
+
 "JavaScript plugin settings
 Plug 'pangloss/vim-javascript', {'for': ['javascript']} "syntax highlighting for js files
-Plug 'maxmellon/vim-jsx-pretty', {'for': ['javascript/react', 'embedded/javascript']} "syntax highlighting for jsx and ejs
-Plug 'tpope/vim-projectionist', {'for': ['javascript/react', 'embedded/javascript']}
-Plug 'sidorares/node-vim-debugger', {'for': ['javascript', 'javascript/react', 'embedded/javascript']} "debugging node.js programs
+Plug 'maxmellon/vim-jsx-pretty', {'for': ['javascriptreact', 'embedded/javascript']} "syntax highlighting for jsx and ejs
+Plug 'tpope/vim-projectionist', {'for': ['javascriptreact', 'embedded/javascript']}
+Plug 'sidorares/node-vim-debugger', {'for': ['javascript', 'javascriptreact', 'embedded/javascript']} "debugging node.js programs
 
 "html and javascript
-Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascript/react', 'embedded/javascript']}, "auto closing of html tags
-Plug 'valloric/matchtagalways', {'for': ['html', 'javascript', 'javascript/react', 'embedded/javascript']} "show matches html tags
+Plug 'alvan/vim-closetag', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']}, "auto closing of html tags
+Plug 'valloric/matchtagalways', {'for': ['html', 'javascript', 'javascriptreact', 'embedded/javascript']} "show matches html tags
 " Plug 'prettier/vim-prettier', {'do': 'yarn install', 'for': ['css', 'html', 'htmldjango', 'javascript', 'javascript/react', 'embedded/javascript']}
 
 "ejs plugin settings
