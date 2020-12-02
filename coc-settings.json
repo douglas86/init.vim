@@ -1,0 +1,20 @@
+{
+	// explorer
+	"explorer.width":25,
+	"explorer.icon.enableNerdfont":true,
+	"explorer.previewAction.onHover":false,
+	"explorer.icon.enableVimDevicons":false,
+	"explorer.keyMappings.global":{
+		"<cr>": ["expandable?", "expand", "open"],
+		"v":"open:vsplit"
+ 	},
+ 	"python.jediEnabled":false,
+ 	"html.format.enable":true,
+ 	"html.enable":true,
+ 	"html.filetypes":[
+ 		"html",
+ 		"handlebars",
+ 		"django",
+ 		"htmldjango"
+ 	]
+}

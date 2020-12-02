@@ -1,5 +1,5 @@
 " generic plugins
-Plug 'valloric/youcompleteme'
+Plug 'neoclide/coc.nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'

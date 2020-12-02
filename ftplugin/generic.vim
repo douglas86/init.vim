@@ -2,7 +2,7 @@ set nu
 set nowrap
 set tabstop=4 "tabstop to 4 spaces
 set shiftwidth=4 "shiftwidth to 4 spaces
-set clipboard+=unnamedplus
+set clipboard=unnamedplus
 set scrolloff=10
 set noswapfile
 set nobackup
