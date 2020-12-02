@@ -1,7 +1,7 @@
 "mappings
 map Q :q <CR>
 map W :qall <CR>
-map M :NERDTreeToggle <CR>
+map m :CocCommand explorer <CR>
 map R :tabclose <CR>
 
 autocmd BufWinEnter *.py map <c-b> :Black <CR>
