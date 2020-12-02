@@ -1,11 +1,5 @@
 " generic plugins
 Plug 'neoclide/coc.nvim'
-Plug 'scrooloose/nerdtree'
-Plug 'sirver/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'prettier/vim-prettier', {
-  \ 'do': 'npm install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 Plug '907th/vim-auto-save' " auto saves file
 Plug 'jiangmiao/auto-pairs' "closing of pairs
 Plug 'preservim/nerdcommenter' "commenting out lines of code
