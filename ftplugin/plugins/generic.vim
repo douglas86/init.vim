@@ -10,23 +10,6 @@ function! s:check_back_space() abort
 	return !col || getline('.')[col - 1] =~# '\s'
 endfunction
 
-let g:coc_start_at_startup = 1
-let g:coc_global_extensions = [
-			\ 'coc-json',
-			\ 'coc-css',
-			\ 'coc-eslint',
-			\ 'coc-tsserver',
-			\ 'coc-emmet',
-			\ 'coc-tag',
-			\ 'coc-lists',
-			\ 'coc-syntax',
-			\ 'coc-yaml',
-			\ 'coc-html',
-			\ 'coc-snippet',
-			\ 'coc-git',
-			\ 'coc-prettier',
-]
-
 " vim-auto-save
 let g:auto_save = 1 " enable AutoSave on Vim startup
 
